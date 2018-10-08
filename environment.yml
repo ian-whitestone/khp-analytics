@@ -1,0 +1,13 @@
+name: khp-analytics
+dependencies:
+  - python=3.7
+  - dask==0.19.2
+  - pytz==2018.5
+  - pyyaml==3.13
+  - boto3==1.9.7
+  - plotly==3.3.0
+  - ipykernel==5.0.0
+  - scikit-learn==0.20.0
+  - pip:
+    - glom==18.3.1
+    - git+https://github.com/ian-whitestone/postgrez.git
